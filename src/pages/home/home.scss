@@ -1,3 +1,24 @@
 page-home {
+    .subtitle {
+        font-size: .5em;
+    }
 
+    ion-col.song {
+        background: #bac81f;
+        height: 110px;
+        line-height:110px;
+        text-align:center;
+        cursor: pointer;
+  
+        &:nth-child(2n+1) {
+            background: #00a8c8;
+        }
+    
+        span {
+            display: inline-block;
+            vertical-align: middle;
+            line-height: normal;
+        }
+    }
 }
+  

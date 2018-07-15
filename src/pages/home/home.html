@@ -1,14 +1,20 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
+    <ion-title text-center>
+      La Boite À Nono
+      <div class="subtitle">
+        Par "Les Plaies"
+      </div>
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content>
+  <ion-grid no-padding>
+    <ion-row justify-content-center>
+      <ion-col col-4 col-sm-2 class="song" *ngFor="let sound of sounds" (click)="play(sound.file)">
+        <span>{{ sound.title }}</span>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
