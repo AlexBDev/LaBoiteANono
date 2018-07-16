@@ -2,17 +2,25 @@
 
 Quick soundbox application made for fun under Ionic 3.
 
+## Preview
+
+Check [https://www.laboiteanono.fr](https://www.laboiteanono.fr)
+
 ## Install
 
 ```sh
 $ npm i
+```
+
+## Serve (Dev)
+
+```sh
 $ npm run ionic:serve
 ```
 
 ## Build
 
 ```sh
-$ npm i
 $ npm run build -- --prod
 ```
 
