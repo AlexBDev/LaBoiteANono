@@ -1,6 +1,6 @@
 # La Boîte à Nono
 
-Quick soundbox application made for fun under Ionic 3.
+Soundbox application made for fun under Ionic 3.
 
 ## Preview
 
